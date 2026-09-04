@@ -6,6 +6,8 @@
 
 - `GET /`：APIの動作確認メッセージを返す
 - `GET /tasks`：サンプルの課題一覧を取得する
+- `GET /tasks/{task_id}`：指定したIDの課題を1件取得する
+- `PATCH /tasks/{task_id}`：指定した課題の完了状態を更新する
 - `GET /docs`：APIドキュメントを表示する
 - POST /tasks：新しい課題を登録する
 
